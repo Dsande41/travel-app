@@ -1,0 +1,535 @@
+{
+  "meta": { "code": 200, "requestId": "5b33d7654c1f672109eae718" },
+  "response": {
+    "suggestedRadius": 10000,
+    "headerLocation": "Current map view",
+    "headerFullLocation": "Current map view",
+    "headerLocationGranularity": "unknown",
+    "totalResults": 8,
+    "suggestedBounds": {
+      "ne": { "lat": 44.802586493032514, "lng": -76.89992340379432 },
+      "sw": { "lat": 44.695554434747415, "lng": -77.13040021886694 }
+    },
+    "groups": [
+      {
+        "type": "Recommended Places",
+        "name": "recommended",
+        "items": [
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "4fb7a9c9e4b0636b70e4aa42",
+              "name": "Kennebec Lake",
+              "contact": {},
+              "location": {
+                "lat": 44.7314909741765,
+                "lng": -76.9688306475372,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 44.7314909741765,
+                    "lng": -76.9688306475372
+                  }
+                ],
+                "distance": 2727,
+                "cc": "CA",
+                "city": "Arden",
+                "state": "ON",
+                "country": "Canada",
+                "formattedAddress": ["Arden ON", "Canada"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d161941735",
+                  "name": "Lake",
+                  "pluralName": "Lakes",
+                  "shortName": "Lake",
+                  "icon": {
+                    "prefix":
+                      "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/lake_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": {
+                "tipCount": 0,
+                "usersCount": 0,
+                "checkinsCount": 0,
+                "visitsCount": 0
+              },
+              "beenHere": {
+                "count": 0,
+                "lastCheckinExpiredAt": 0,
+                "marked": false,
+                "unconfirmedCount": 0
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "referralId": "e-0-4fb7a9c9e4b0636b70e4aa42-0"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "4e1f50c9a809eb325ff8720a",
+              "name": "Buck Lake",
+              "contact": {},
+              "location": {
+                "lat": 44.70041952830583,
+                "lng": -76.96662026696514,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 44.70041952830583,
+                    "lng": -76.96662026696514
+                  }
+                ],
+                "distance": 3848,
+                "cc": "CA",
+                "country": "Canada",
+                "formattedAddress": ["Canada"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d161941735",
+                  "name": "Lake",
+                  "pluralName": "Lakes",
+                  "shortName": "Lake",
+                  "icon": {
+                    "prefix":
+                      "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/lake_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": {
+                "tipCount": 0,
+                "usersCount": 0,
+                "checkinsCount": 0,
+                "visitsCount": 0
+              },
+              "beenHere": {
+                "count": 0,
+                "lastCheckinExpiredAt": 0,
+                "marked": false,
+                "unconfirmedCount": 0
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "referralId": "e-0-4e1f50c9a809eb325ff8720a-1"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "4deadc6ad164ef597cf7d20f",
+              "name": "Springwood Cottages Resort",
+              "contact": {},
+              "location": {
+                "address": "1018 Blue Heron Ridge Rd.",
+                "crossStreet": "at Henderson Rd.",
+                "lat": 44.7428622049391,
+                "lng": -76.94101095199585,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 44.7428622049391,
+                    "lng": -76.94101095199585
+                  }
+                ],
+                "distance": 5232,
+                "postalCode": "K0H 1B0",
+                "cc": "CA",
+                "city": "Arden",
+                "state": "ON",
+                "country": "Canada",
+                "formattedAddress": [
+                  "1018 Blue Heron Ridge Rd. (at Henderson Rd.)",
+                  "Arden ON K0H 1B0",
+                  "Canada"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1e4941735",
+                  "name": "Campground",
+                  "pluralName": "Campgrounds",
+                  "shortName": "Campground",
+                  "icon": {
+                    "prefix":
+                      "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/campground_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": {
+                "tipCount": 0,
+                "usersCount": 0,
+                "checkinsCount": 0,
+                "visitsCount": 0
+              },
+              "beenHere": {
+                "count": 0,
+                "lastCheckinExpiredAt": 0,
+                "marked": false,
+                "unconfirmedCount": 0
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "referralId": "e-0-4deadc6ad164ef597cf7d20f-2"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "4e56c93b1495e0149c0e77b1",
+              "name": "Camp's Bay Cottages And Marina",
+              "contact": {},
+              "location": {
+                "address": "1544 Veley Road",
+                "lat": 44.774957,
+                "lng": -76.969922,
+                "labeledLatLngs": [
+                  { "label": "display", "lat": 44.774957, "lng": -76.969922 }
+                ],
+                "distance": 6176,
+                "cc": "CA",
+                "city": "Cloyne",
+                "state": "ON",
+                "country": "Canada",
+                "formattedAddress": ["1544 Veley Road", "Cloyne ON", "Canada"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1e0941735",
+                  "name": "Harbor / Marina",
+                  "pluralName": "Harbors / Marinas",
+                  "shortName": "Harbor / Marina",
+                  "icon": {
+                    "prefix":
+                      "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/harbor_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": {
+                "tipCount": 0,
+                "usersCount": 0,
+                "checkinsCount": 0,
+                "visitsCount": 0
+              },
+              "beenHere": {
+                "count": 0,
+                "lastCheckinExpiredAt": 0,
+                "marked": false,
+                "unconfirmedCount": 0
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "referralId": "e-0-4e56c93b1495e0149c0e77b1-3"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "53ae373a498e7b9f40cbd7d8",
+              "name": "D's Cottage",
+              "contact": {},
+              "location": {
+                "lat": 44.7448,
+                "lng": -76.928,
+                "labeledLatLngs": [
+                  { "label": "display", "lat": 44.7448, "lng": -76.928 }
+                ],
+                "distance": 6266,
+                "cc": "CA",
+                "city": "Arden",
+                "country": "Canada",
+                "formattedAddress": ["Arden", "Canada"]
+              },
+              "categories": [
+                {
+                  "id": "52e81612bcbc57f1066b7a0d",
+                  "name": "Beach Bar",
+                  "pluralName": "Beach Bars",
+                  "shortName": "Beach Bar",
+                  "icon": {
+                    "prefix":
+                      "https://ss3.4sqi.net/img/categories_v2/nightlife/default_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": {
+                "tipCount": 0,
+                "usersCount": 0,
+                "checkinsCount": 0,
+                "visitsCount": 0
+              },
+              "beenHere": {
+                "count": 0,
+                "lastCheckinExpiredAt": 0,
+                "marked": false,
+                "unconfirmedCount": 0
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "referralId": "e-0-53ae373a498e7b9f40cbd7d8-4"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "4e1b1af0ae60e3765f4deb03",
+              "name": "Big Clear Lake",
+              "contact": {},
+              "location": {
+                "lat": 44.73584856427382,
+                "lng": -76.91039962266126,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 44.73584856427382,
+                    "lng": -76.91039962266126
+                  }
+                ],
+                "distance": 7341,
+                "cc": "CA",
+                "city": "Arden",
+                "state": "ON",
+                "country": "Canada",
+                "formattedAddress": ["Arden ON", "Canada"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d161941735",
+                  "name": "Lake",
+                  "pluralName": "Lakes",
+                  "shortName": "Lake",
+                  "icon": {
+                    "prefix":
+                      "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/lake_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": {
+                "tipCount": 0,
+                "usersCount": 0,
+                "checkinsCount": 0,
+                "visitsCount": 0
+              },
+              "beenHere": {
+                "count": 0,
+                "lastCheckinExpiredAt": 0,
+                "marked": false,
+                "unconfirmedCount": 0
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "referralId": "e-0-4e1b1af0ae60e3765f4deb03-5"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "56afabd1498e39e356edb3ca",
+              "name": "Tobia's Guardian Pharmacy",
+              "contact": {},
+              "location": {
+                "address": "12357 Highway 41",
+                "lat": 44.72474,
+                "lng": -77.119924,
+                "labeledLatLngs": [
+                  { "label": "display", "lat": 44.72474, "lng": -77.119924 }
+                ],
+                "distance": 9342,
+                "postalCode": "K0H 2G0",
+                "cc": "CA",
+                "city": "Northbrook",
+                "state": "ON",
+                "country": "Canada",
+                "formattedAddress": [
+                  "12357 Highway 41",
+                  "Northbrook ON K0H 2G0",
+                  "Canada"
+                ]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d10f951735",
+                  "name": "Pharmacy",
+                  "pluralName": "Pharmacies",
+                  "shortName": "Pharmacy",
+                  "icon": {
+                    "prefix":
+                      "https://ss3.4sqi.net/img/categories_v2/shops/pharmacy_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": {
+                "tipCount": 0,
+                "usersCount": 0,
+                "checkinsCount": 0,
+                "visitsCount": 0
+              },
+              "beenHere": {
+                "count": 0,
+                "lastCheckinExpiredAt": 0,
+                "marked": false,
+                "unconfirmedCount": 0
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "referralId": "e-0-56afabd1498e39e356edb3ca-6"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
+              "id": "53a764bc498ea4bed5c7a622",
+              "name": "Cuddy's Pine Cove Camp",
+              "contact": {},
+              "location": {
+                "address": "RR 1",
+                "lat": 44.797721399474106,
+                "lng": -77.06236475892246,
+                "labeledLatLngs": [
+                  {
+                    "label": "display",
+                    "lat": 44.797721399474106,
+                    "lng": -77.06236475892246
+                  }
+                ],
+                "distance": 9471,
+                "postalCode": "K0H 1B0",
+                "cc": "CA",
+                "city": "Arden",
+                "state": "ON",
+                "country": "Canada",
+                "formattedAddress": ["RR 1", "Arden ON K0H 1B0", "Canada"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1e4941735",
+                  "name": "Campground",
+                  "pluralName": "Campgrounds",
+                  "shortName": "Campground",
+                  "icon": {
+                    "prefix":
+                      "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/campground_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": {
+                "tipCount": 0,
+                "usersCount": 0,
+                "checkinsCount": 0,
+                "visitsCount": 0
+              },
+              "beenHere": {
+                "count": 0,
+                "lastCheckinExpiredAt": 0,
+                "marked": false,
+                "unconfirmedCount": 0
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "referralId": "e-0-53a764bc498ea4bed5c7a622-7"
+          }
+        ]
+      }
+    ]
+  }
+}
