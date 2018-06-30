@@ -1,5 +1,5 @@
 {
-  "meta": { "code": 200, "requestId": "5b33d7654c1f672109eae718" },
+  "meta": { "code": 200, "requestId": "5b37a28f4434b9171ccdb7cf" },
   "response": {
     "suggestedRadius": 10000,
     "headerLocation": "Current map view",
@@ -7,8 +7,8 @@
     "headerLocationGranularity": "unknown",
     "totalResults": 8,
     "suggestedBounds": {
-      "ne": { "lat": 44.802586493032514, "lng": -76.89992340379432 },
-      "sw": { "lat": 44.695554434747415, "lng": -77.13040021886694 }
+      "ne": { "lat": 44.803797469447815, "lng": -76.89992340379432 },
+      "sw": { "lat": 44.67012393002629, "lng": -77.13040021886694 }
     },
     "groups": [
       {
@@ -224,6 +224,65 @@
               ]
             },
             "venue": {
+              "id": "55c56ca6498e9c74b4b09138",
+              "name": "Davin's Cottage :-)",
+              "contact": {},
+              "location": {
+                "lat": 44.6762,
+                "lng": -76.9834,
+                "labeledLatLngs": [
+                  { "label": "display", "lat": 44.6762, "lng": -76.9834 }
+                ],
+                "distance": 5548,
+                "cc": "CA",
+                "city": "Arden",
+                "country": "Canada",
+                "formattedAddress": ["Arden", "Canada"]
+              },
+              "categories": [
+                {
+                  "id": "4bf58dd8d48988d1e2941735",
+                  "name": "Beach",
+                  "pluralName": "Beaches",
+                  "shortName": "Beach",
+                  "icon": {
+                    "prefix":
+                      "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/beach_",
+                    "suffix": ".png"
+                  },
+                  "primary": true
+                }
+              ],
+              "verified": false,
+              "stats": {
+                "tipCount": 0,
+                "usersCount": 0,
+                "checkinsCount": 0,
+                "visitsCount": 0
+              },
+              "beenHere": {
+                "count": 0,
+                "lastCheckinExpiredAt": 0,
+                "marked": false,
+                "unconfirmedCount": 0
+              },
+              "photos": { "count": 0, "groups": [] },
+              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
+            },
+            "referralId": "e-0-55c56ca6498e9c74b4b09138-3"
+          },
+          {
+            "reasons": {
+              "count": 0,
+              "items": [
+                {
+                  "summary": "This spot is popular",
+                  "type": "general",
+                  "reasonName": "globalInteractionReason"
+                }
+              ]
+            },
+            "venue": {
               "id": "4e56c93b1495e0149c0e77b1",
               "name": "Camp's Bay Cottages And Marina",
               "contact": {},
@@ -271,66 +330,7 @@
               "photos": { "count": 0, "groups": [] },
               "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
             },
-            "referralId": "e-0-4e56c93b1495e0149c0e77b1-3"
-          },
-          {
-            "reasons": {
-              "count": 0,
-              "items": [
-                {
-                  "summary": "This spot is popular",
-                  "type": "general",
-                  "reasonName": "globalInteractionReason"
-                }
-              ]
-            },
-            "venue": {
-              "id": "53ae373a498e7b9f40cbd7d8",
-              "name": "D's Cottage",
-              "contact": {},
-              "location": {
-                "lat": 44.7448,
-                "lng": -76.928,
-                "labeledLatLngs": [
-                  { "label": "display", "lat": 44.7448, "lng": -76.928 }
-                ],
-                "distance": 6266,
-                "cc": "CA",
-                "city": "Arden",
-                "country": "Canada",
-                "formattedAddress": ["Arden", "Canada"]
-              },
-              "categories": [
-                {
-                  "id": "52e81612bcbc57f1066b7a0d",
-                  "name": "Beach Bar",
-                  "pluralName": "Beach Bars",
-                  "shortName": "Beach Bar",
-                  "icon": {
-                    "prefix":
-                      "https://ss3.4sqi.net/img/categories_v2/nightlife/default_",
-                    "suffix": ".png"
-                  },
-                  "primary": true
-                }
-              ],
-              "verified": false,
-              "stats": {
-                "tipCount": 0,
-                "usersCount": 0,
-                "checkinsCount": 0,
-                "visitsCount": 0
-              },
-              "beenHere": {
-                "count": 0,
-                "lastCheckinExpiredAt": 0,
-                "marked": false,
-                "unconfirmedCount": 0
-              },
-              "photos": { "count": 0, "groups": [] },
-              "hereNow": { "count": 0, "summary": "Nobody here", "groups": [] }
-            },
-            "referralId": "e-0-53ae373a498e7b9f40cbd7d8-4"
+            "referralId": "e-0-4e56c93b1495e0149c0e77b1-4"
           },
           {
             "reasons": {

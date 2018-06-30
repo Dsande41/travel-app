@@ -15,8 +15,12 @@ DELETE FROM Locations
 WHERE location_id=8;
 
 
-INSERT INTO Locations(location_name, location_address, zipcode,city )
+INSERT INTO Locations(location_name, location_address,city,zipcode, latitude,longitude,category_name )
 VALUES
-    ('Atlanta pub','1223 north street', 40499,'Atlanta')
+    ('Atlanta pub','1223 north street','Atlanta', 40499,77.1234,-43.66543,'restaurant'),
+    ('Central park','1223 South street','portland', 40488,77.1234,-23.66543,'park');
+
     
-    ;
+SELECT * FROM locations
+ORDER BY location_name 
+LIMIT 10;
