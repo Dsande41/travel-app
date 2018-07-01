@@ -68,6 +68,7 @@ app.get('/', (req, res)=>{
   // res.send('this is the homepage');
 })
 
+
 app.post('/addLocation', (req, res)=>{
     res.send(req.body.id)
 

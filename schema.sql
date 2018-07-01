@@ -17,7 +17,7 @@ CREATE TABLE Locations(
  );
 
  CREATE TABLE Itinerary(
-    user_id integer REFRENCES Users(user_id),
-    location_id integer REFRENCES Locations(location_id), 
-    order integer
+    user_id integer REFERENCES Users(user_id),
+    location_id integer REFERENCES Locations(location_id), 
+    order_item integer
  );

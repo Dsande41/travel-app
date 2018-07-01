@@ -1,3 +1,6 @@
+-- can do similar operation as I did for Locations with Users and Itinerary
+-- don't forget to change the name of the table
+
 SELECT * FROM Locations;
 
 SELECT * FROM Locations
@@ -24,3 +27,21 @@ VALUES
 SELECT * FROM locations
 ORDER BY location_name 
 LIMIT 10;
+
+INSERT INTO Users(email_address,user_name)
+VALUES
+    ('User@gmail.com', 'alana'),
+    ('user2@yahoo.con', 'alex');
+
+INSERT INTO Itinerary(user_id, location_id, order_item)
+VALUES
+	(2,3,1),
+	(2,5,2);
+
+-- update Itinerary to the order_item having a value
+-- and do a join
+UPDATE Itinerary
+SET order_item=6
+FROM Users,Locations
+WHERE Users.user_id=Locations.location_id;
+
