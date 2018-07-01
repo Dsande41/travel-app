@@ -125,9 +125,20 @@ request({
   }
 
       app.get('/newPage',(req, res)=>{
-          console.log('This is the new route for the form')
-          res.render('create-new-form-page');
-      });
+          console.log('This is the new route for the form');
+          Travelapp.selectLocations()
+          .then((data)=>{
+              console.log(data);
+          res.render('create-new-form-page',{
+              database:data
+          });
+          console.log(data);
+        
+         })
+         .catch((error)=>{
+             console.log(error);
+         })
+    });
 
       app.post('/newPage',(req,res)=>{
           console.log(req.body);
@@ -137,7 +148,8 @@ request({
           });
       });
 
-    
+    // grab all the categories
+    // then console.log those categories
   //   console.log(body.response);
   //   fs.writeFile(filename,body,(error)=>{
   //     if(error){
@@ -158,7 +170,7 @@ database.returnOnlyTen()
       
   });
  
-// getData(40.718301364039064, -71.99192996850243);
+// getData(25.718301364039064, -71.99192996850243);
 
 
 

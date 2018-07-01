@@ -32,14 +32,18 @@ function getOne(location_id){
 
 
  function returnOnlyTen(){
-     return db.query(`SELECT * FROM locations ORDER BY location_id LIMIT 10`)
+     return db.query(`SELECT * FROM locations ORDER BY location_id LIMIT 10`);
 
  }
  
+ function selectLocations(){
+     return db.query(`SELECT category_name FROM Locations`);
+ }
 module.exports={
     getAll,
     getOne,
     addLocation,
-    returnOnlyTen
+    returnOnlyTen,
+    selectLocations
 
 }

@@ -17,6 +17,7 @@
     "formidable": "^1.2.1",
     "geocoder": "^0.2.3",
     "node-foursquare": "^0.3.3",
+    "pg-promise": "^8.4.4",
     "request": "^2.87.0"
   },
   "devDependencies": {
