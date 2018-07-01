@@ -33,6 +33,24 @@ VALUES
     ('User@gmail.com', 'alana'),
     ('user2@yahoo.con', 'alex');
 
+
+SELECT * FROM Users;
+
+SELECT * FROM Users
+WHERE user_id=1;
+
+
+SELECT * FROM Users
+WHERE email_address='User@gmail.com';
+
+
+SELECT * FROM Users
+WHERE user_name='alex';
+
+UPDATE Users
+SET email_address = 'test@gmail.com'
+WHERE user_id=3;
+
 INSERT INTO Itinerary(user_id, location_id, order_item)
 VALUES
 	(2,3,1),
