@@ -48,4 +48,5 @@ FROM Users,Locations
 WHERE Users.user_id=Locations.location_id;
 
 -- select all category names from the Locations table
-SELECT category_name FROM Locations;
+
+SELECT DISTINCT category_name FROM Locations;

@@ -130,7 +130,7 @@ request({
           .then((data)=>{
               console.log(data);
           res.render('create-new-form-page',{
-              database:data
+              locations:data
           });
           console.log(data);
         

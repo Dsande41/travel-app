@@ -1,14 +1,10 @@
 <form  action="/newPage" method="POST">
 
-
-    <option>
-
-   {{#each locations}}
-
-   {{category_name}}
-   
+<select name="location_name">
+    {{#each locations}}
+        <option value ='{{category_name}}>
+             {{category_name}}
+           </option>
     {{/each}}
-
-   </option>
-
+</select>
 </form
