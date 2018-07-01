@@ -1,0 +1,41 @@
+
+<h1>Page to search and add items to the list</h1>
+<div class="container">
+<form  id="search-bar" action="./" method="POST">
+
+    <input type="text" name="enter zipcode or city">
+    <br><br>
+    <button onclick="submit" name="submit"></button>
+  
+  
+</form>
+</div>
+
+<ol>
+    {{#each locations }}
+    
+   <li><div>
+       <label>
+    {{!-- {{location_id}} --}}
+    {{!-- {{category_name}} --}}
+    {{location_name }}
+    {{location_address}}
+    {{!-- {{zipcode}} --}}
+    {{!-- {{city}} --}}
+    {{!-- {{latitude}} --}}
+    {{!-- {{longitude}} --}}
+   
+    <form method="POST" action="/addLocation">
+     <button type="submit" class="add-btn"> +</button>
+     <input type="hidden" name="id" value="{{location_name}}">
+     </form>
+     </label>
+      
+    </div></li>
+   
+   {{/each}}
+</ol>
+</form>
+
+ 
+
