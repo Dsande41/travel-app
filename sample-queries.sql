@@ -50,3 +50,6 @@ WHERE Users.user_id=Locations.location_id;
 -- select all category names from the Locations table
 
 SELECT DISTINCT category_name FROM Locations;
+
+SELECT location_name FROM Locations
+WHERE category_name='Bars';

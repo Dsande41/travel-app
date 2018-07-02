@@ -39,11 +39,17 @@ function getOne(location_id){
  function selectLocations(){
      return db.query(`SELECT category_name FROM Locations`);
  }
+
+ function addLocationByCategoryName(category_name){
+    return db.query(`SELECT location_name,latitude, longitude FROM locations WHERE category_name='${category_name}'`);
+
+ }
 module.exports={
     getAll,
     getOne,
     addLocation,
     returnOnlyTen,
-    selectLocations
+    selectLocations,
+    addLocationByCategoryName
 
 }

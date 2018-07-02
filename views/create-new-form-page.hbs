@@ -1,10 +1,24 @@
 <form  action="/newPage" method="POST">
 
+
 <select name="location_name">
     {{#each locations}}
-        <option value ='{{category_name}}>
+        <option value ={{category_name}}>
              {{category_name}}
-           </option>
+        </option>
     {{/each}}
 </select>
-</form
+<button type='submit'>Submit</button>
+</form>
+
+
+<ul>
+    {{#each results }}
+    <li>
+  <a target="_blank" href='http://www.google.com/maps/search/?api=1&query={{latitude}},{{longitude}}'>
+  
+  {{location_name}}</a>
+    </li>
+    {{/each}}
+</ul> 
+
