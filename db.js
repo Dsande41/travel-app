@@ -37,7 +37,7 @@ function getOne(location_id){
  }
  
  function selectLocations(){
-     return db.query(`SELECT category_name FROM Locations`);
+     return db.query(`SELECT DISTINCT category_name FROM Locations`);
  }
 
  function addLocationByCategoryName(category_name){
