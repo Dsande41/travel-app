@@ -27,7 +27,7 @@ function getOne(location_id){
  function addLocation(location_name, location_address,city,zipcode, latitude,longitude,category_name){
      return db.query(`INSERT INTO Locations(location_name, location_address,city,zipcode, latitude,longitude,category_name)
          VALUES
-         ('$1#','$2#','$3#',$4,$5,$6,'$7#') `,[location_name, location_address,city,zipcode, latitude,longitude,category_name])
+         ('$1#','$2#','$3#',$4,$5,$6,'$7#') returning location_id`,[location_name, location_address,city,zipcode, latitude,longitude,category_name])
  }  
 
 
@@ -36,12 +36,12 @@ function getOne(location_id){
 
  }
  
- function selectLocations(){
-     return db.query(`SELECT DISTINCT category_name FROM Locations`);
+ function selectLocations(city){
+     return db.query(`SELECT DISTINCT category_name FROM Locations WHERE city ILIKE '%$1#%'`, [city]);
  }
 
- function addLocationByCategoryName(category_name){
-    return db.query(`SELECT location_name,latitude, longitude FROM locations WHERE category_name='${category_name}'`);
+ function addLocationByCategoryName(category_name, city){
+    return db.query(`SELECT  DISTINCT location_name,latitude, longitude FROM locations WHERE category_name ILIKE '%$1#%' AND city ILIKE '%$2#%'`,[category_name, city]);
 
  }
 module.exports={

@@ -1,7 +1,8 @@
-<form  action="/newPage" method="POST">
+<div class="left">
+<form  action="/newPage/{{city}}" method="POST">
 
 
-<select name="location_name">
+<select class="select-statement" name="location_name">
     {{#each locations}}
         <option value ={{category_name}}>
              {{category_name}}
@@ -12,7 +13,7 @@
 </form>
 
 
-<ul>
+<ul  class="list">
     {{#each results }}
     <li>
   <a target="_blank" href='http://www.google.com/maps/search/?api=1&query={{latitude}},{{longitude}}'>

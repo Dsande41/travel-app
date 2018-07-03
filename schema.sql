@@ -1,11 +1,11 @@
 CREATE TABLE Locations(
     location_id serial primary key,
-    location_name varchar(45),
-    location_address varchar(45),
+    location_name varchar(450),
+    location_address varchar(450),
     zipCode varchar(45),
-    city varchar(45),
-    latitude decimal(10,8),
-    longitude decimal(10,8),
+    city varchar(450),
+    latitude varchar(200),
+    longitude varchar(200),
     category_name varchar(200)
  );
 
