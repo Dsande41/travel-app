@@ -4,6 +4,14 @@
 ## What It is
 
 ## Technologies Used
+* Node.js
+* Express
+* Handlebars.js
+* PostgreSQL
+* Google Maps Geocoding API
+* Foursquare API
+* Google Maps API
+
 
 ## Strategy
 
