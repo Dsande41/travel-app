@@ -18,6 +18,7 @@
 <img src="readmeImg/EntryHomepage.JPG">
 
 #### List of selections Page
+<img src="readmeImg/selectionsample.JPG">
 
 #### User can click on one selection and get redirected to a google maps corresponding to the latitude and longitude for that venue
 
