@@ -7,8 +7,9 @@
 * Node.js
 * Express
 * Handlebars.js
+* CSS 3 
 * PostgreSQL
-* Google Maps Geocoding API
+* Google Geocoding API
 * Foursquare API
 * Google Maps API
 
