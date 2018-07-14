@@ -12,7 +12,7 @@
 ## Site Wakethrough
 
 ### Homepage
-<img src="readmeImg/homepage.jpg">
+<img src="readmeImg/homepage.JPG">
 
 ### Selection Page
 
