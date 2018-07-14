@@ -12,10 +12,10 @@
 ## Site Wakethrough
 
 ### Homepage
-<img src="readmeImg/EntryHomepage.JPG">
+<img src="readmeImg/homepage.JPG">
 
 ### Selection Page
-<img src="readme/homepage.JPG">
+<img src="readmeImg/EntryHomepage.JPG">
 
 #### List of selections Page
 
