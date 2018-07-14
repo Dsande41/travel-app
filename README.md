@@ -28,9 +28,10 @@
 #### A Google Maps Page 
 
 ##### Click on directions and it will redirect to a google maps that uses the selected venues address as endpoint for the travel destination.
-<img src="readmeImg/sampledrivingdirectionsfromlocationtoselction.JPG">
+<img src="readmeImg/sampleselctioncoffee.JPG">
 
 ###### Page with the direction from a selected start location(as current location) and the endpoint; 
 Map displayed with the driving directions.
+<img src="readmeImg/sampledrivingdirectionsfromlocationtoselction.JPG">
 
 ## Challenges
